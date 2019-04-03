@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "controleur\\" : "controleur",
+            "modele\\" : "modele",
+            "vue\\" : "vue"
+        }
+    }
+}
+    
