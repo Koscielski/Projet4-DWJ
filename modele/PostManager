@@ -1,0 +1,25 @@
+<?php
+
+namespace modele;
+
+class Commentaire {
+  private $id;
+  private $auteur;
+  private $titre;
+  private $contenu;
+  private $ajoutdate;
+  private $updatedate;
+  
+  public function __construct($id, $auteur, $titre, $contenu, $ajoutdate, $updatedate){
+    $this->id = $id;
+    $this->auteur = $auteur;
+    $this->titre = $titre;
+    $this->contenu = $contenu;
+    $this->ajoutdate = $ajoutdate;
+    $this->updatedate = $updatedate;
+    }
+    
+    
+    
+    
+   }
